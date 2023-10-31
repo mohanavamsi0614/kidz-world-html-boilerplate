@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+nav{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    /* position:fixed; */
+}
+.j{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+}
+.head{
+    position: relative;
+    bottom: 120px;
+}
+.books{
+    display: flex;
+    justify-content: space-around;
+}
+.book{
+    position: relative;
+    width:160px;
+    height: 300px;
+}
+.prize{
+    display: flex;
+
+}
+.tag{
+    background-color: blue;
+    color: white;
+    position:absolute;
+    right:0px;
+    bottom: 5px;
+
+}
+.img{
+    width: 150px;
+}
+.games{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.game{
+    position: relative;
+    width:260px;
+    height: 300px;
+}
+.gifts{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.gift{
+    
+}
